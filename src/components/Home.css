@@ -1,0 +1,49 @@
+/* Carousel.css */
+.carousel {
+  position: relative;
+  overflow: hidden; /* Ensure the image doesn't overflow */
+}
+
+.carousel-item img {
+  width: 100%;
+  max-height: 700px; /* Set a maximum height for the images (adjust as needed) */
+  object-fit: cover; /* Ensure the image covers the entire container */
+}
+
+.carousel-caption {
+  background: rgba(0, 0, 0, 0.6);
+  
+  padding: 20px;
+  border-radius: 5px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  color: #fff;
+}
+
+.carousel-caption p {
+  font-size: 1.25rem;
+  color: #fff;
+}
+
+.carousel-caption h1 {
+  font-size: 4rem;
+  margin-bottom: 2.5rem;
+  color: #fff;
+}
+
+.carousel-caption a {
+  background-color: #6c757d;
+  color: #fff;
+  padding: 1.5rem 3rem;
+  border-radius: 50px;
+  font-size: 1.25rem;
+  text-decoration: none;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
+
+.carousel-caption a:hover {
+  background-color: #343a40;
+}

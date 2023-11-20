@@ -1,0 +1,67 @@
+/* Cart.css */
+
+ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .books-cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px;
+    border: 1px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .book-details {
+    flex: 1;
+    display: flex;
+    align-items: center;
+  }
+  
+  .book-image {
+    max-width: 80px;
+    margin-right: 16px;
+  }
+  
+  .book-info {
+    flex: 1;
+  }
+  
+  .quantity-input {
+    width: 50px;
+    padding: 8px;
+    font-size: 1rem;
+  }
+  
+  .checkout-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+  }
+  
+  .subtotal-text {
+    font-size: 1.2rem;
+    color: black;
+    margin-top: 50px;
+  }
+  
+  .checkout-button {
+    background-color: #000000;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1.2rem;
+    margin-top: 10px;
+  }
+  
+  .checkout-button:hover {
+    background-color: #333333;
+  }
+  

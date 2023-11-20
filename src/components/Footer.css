@@ -1,0 +1,76 @@
+/* foo.css */
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 50px 0;
+}
+
+.container1 {
+    max-width: 1200px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.col-md-4 {
+    width: 31%; /* Adjusted to leave space for margins between columns */
+    margin-bottom: 30px;
+}
+
+h2 {
+    color: #fff;
+    font-size: 1.5em;
+    margin-bottom: 15px;
+}
+
+p {
+    color: #ccc;
+    line-height: 1.6;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+    transition: color 0.3s ease; /* Smooth color transition on hover */
+}
+
+a:hover {
+    color: #ccc;
+}
+
+.footer-bottom {
+    background-color: #222;
+    padding: 20px 0;
+    margin-top: 20px;
+}
+
+.text-center {
+    text-align: center;
+}
+
+/* Styles for Font Awesome icons */
+.fas {
+    margin-right: 5px;
+}
+
+/* Responsive styles */
+@media (max-width: 767px) {
+    .col-md-4 {
+        width: 100%;
+    }
+}

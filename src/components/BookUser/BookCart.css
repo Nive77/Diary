@@ -1,0 +1,60 @@
+/* BookCart.css */
+
+.cart-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  border: 1px solid #ccc;
+  padding: 16px;
+  margin: 16px;
+  width: 250px;
+}
+
+.cart-card img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  margin-bottom: 16px;
+}
+
+.book-details {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.quantity-controls {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+}
+
+.quantity-controls button {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  margin: 0;
+  padding: 4px;
+  cursor: pointer;
+  outline: none;
+}
+
+.quantity-controls button:disabled {
+  cursor: not-allowed;
+  opacity: 0.5;
+}
+
+.quantity-controls input {
+  text-align: center;
+  font-size: 14px;
+  width: 40px;
+  margin: 0 8px;
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  margin-top: 16px;
+}
